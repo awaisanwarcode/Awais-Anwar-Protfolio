@@ -421,6 +421,11 @@ footer {
         align-items: center;
     }
 
+section hr{
+    width: 100%;
+}
+
+
     #textCon {
         margin-top: 30%;
     }
