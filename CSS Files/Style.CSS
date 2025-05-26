@@ -371,7 +371,7 @@ footer {
     }
 }
 
-@media (min-width:600px) and (max-width:999px) {
+@media (min-width:550px) and (max-width:999px) {
     section {
         display: flex;
         flex-direction: column;
@@ -395,7 +395,7 @@ footer {
 }
 
 /* Media Querrey for moblibes*/
-@media (min-width:300px) and (max-width:599px) {
+@media (min-width:259px) and (max-width:549px) {
     header {
         margin-top: 10px;
         position: fixed;
