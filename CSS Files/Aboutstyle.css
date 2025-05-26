@@ -80,12 +80,16 @@ img{
 }
 
 @media (min-width:300px) and (max-width:549px) {
-   
     header {
         margin-top: 10px;
         position: fixed;
         width: 100%;
     }
+section {
+    display : flex;
+    justify-content: column;
+}
+    
 #aboutSec{
     margin-top: 15%;
 }
