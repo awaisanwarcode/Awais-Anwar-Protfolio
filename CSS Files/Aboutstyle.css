@@ -88,4 +88,9 @@ margin-top: 20px
         position: fixed;
         width: 100%;
     }
+    .projectContent{
+    display: flex;
+    justify-content: column;
+    margin: 6% 0%;
+}
 }
