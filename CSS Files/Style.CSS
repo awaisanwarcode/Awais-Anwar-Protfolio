@@ -395,7 +395,7 @@ footer {
 }
 
 /* Media Querrey for moblibes*/
-@media (min-width:259px) and (max-width:549px) {
+@media (min-width:259.99px) and (max-width:549.99px) {
     header {
         margin-top: 10px;
         position: fixed;
