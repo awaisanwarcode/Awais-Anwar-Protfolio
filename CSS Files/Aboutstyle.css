@@ -85,14 +85,6 @@ img{
         position: fixed;
         width: 100%;
     }
-section {
-    display : flex;
-    justify-content: column;
-}
-    
-#aboutSec{
-    margin-top: 15%;
-}
     .projectContent{
     display: flex;
     justify-content: column;
