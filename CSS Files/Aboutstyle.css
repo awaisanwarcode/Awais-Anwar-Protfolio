@@ -1,0 +1,80 @@
+#aboutSec{
+    margin-top: 5%;
+    display: none;
+}
+
+.aboutMainHeadings{
+    font-size: 3rem;
+}
+
+p{
+    line-height: 1.7;
+}
+
+#educationAspects{
+    margin-top: 8%;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+}
+
+#educationAspects h4{
+    font-size: 2rem;
+    text-align: center;
+    margin: 0% 0%;
+}
+
+#Projects{
+    margin-top: 8%;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.projectcontainers{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+h3{
+    text-align: center;
+    font-size: 2rem;
+    margin: 3% 0% 0% 0%;
+}
+
+.projectContent{
+    display: flex;
+    justify-content: space-between;
+    margin: 6% 0%;
+}
+
+.projectPics{
+    width: 42%;
+    object-fit: cover;
+}
+
+.projectDess{
+    width: 54%;
+}
+
+.projectDess a{
+    border: none;
+    background: none;
+    text-decoration: underline;
+    padding: 0% 1%;
+}
+
+.projectDess p {
+    font-size: 1.8rem;
+}
+
+#secondProject{
+    flex-direction: row-reverse;
+}
+
+img{
+    width: 100%;
+    background: none;
+}
