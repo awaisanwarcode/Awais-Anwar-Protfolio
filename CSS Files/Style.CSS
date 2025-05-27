@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background: radial-gradient(circle, rgba(238, 174, 202, 0.69) 0%, rgba(148, 188, 233, 0.203) 52%);
+}
+
+header {
+    padding: 2% 2% 0% 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header button {
+    padding: 2px 10px;
+    border-radius: 50%;
+    font-size: 2rem;
+    background-color: white;
+    cursor: pointer;
+}
+
+header div {
+    width: 60%;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    margin: 1.2%
+}
+
+a {
+    border-radius: 40px;
+    padding: 1% 4%;
+    border: 2px solid blueviolet;
+    background-color: rgba(137, 43, 226, 0.07);
+}
+
+
+section {
+    padding: 0% 2% 2% 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+#text_Pic_Con{
+    display: flex;
+    justify-content: space-between;
+}
+
+#PictureCon {
+    display: flex;
+    align-items: center;
+    height: 700px;
+}
+
+img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(circle, rgba(8, 4, 1, 0.94) 0%, rgba(255, 255, 255, 0.0) 48%);
+}
+
+#textCon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2%;
+}
+
+#textCon h1 {
+    font-size: 4rem;
+    text-align: start;
+    color: rgb(192, 192, 0);
+}
+
+#textCon h2 {
+    font-size: 3rem;
+    text-align: start;
+}
+
+#textCon button {
+    margin: 2% 0%;
+    font-size: 2rem;
+    padding: 1.2% 5%;
+    border: 2px solid brown;
+    border-radius: 40px;
+    background-color: rgba(165, 42, 42, 0.094);
+    color: brown;
+    cursor: pointer;
+}
+
+#contactDiv {
+    width: 100%;
+    margin-top: 4%;
+    justify-content: space-between;
+    display: none;
+}
+
+.Contacts {
+    font-size: 1.4rem;
+}
+
+.GitHub {
+    color: black;
+    background-color: rgba(0, 0, 0, 0.094);
+    border: 2px solid black;
+}
+
+.WhatsApp {
+    color: green;
+    background-color: rgba(0, 128, 0, 0.094);
+    border: 2px solid green;
+}
+
+.Insta {
+    background: #833ab4;
+    background: linear-gradient(to right,
+            #833ab43d, #fd1d1d3e, #fcb0453e);
+}
+
+p {
+    font-size: 1.7rem;
+    text-align: start;
+    line-height: 2;
+}
+
+#EmailPara {
+    margin-top: 4%;
+}
+
+#EmailPara a {
+    border: none;
+}
+
+.detailDives {
+    text-align: center;
+    border-radius: 10px;
+    width: 95%;
+    background: transparent;
+    padding: 1%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin: 2% 0.3%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.473);
+}
+
+.detailDives h2 {
+    margin: 2% 0%;
+    font-size: 2.5rem;
+}
+
+.detailDives p {
+    line-height: 1.4;
+}
+
+#educationDiv {
+    border-top: 4px solid rgb(172, 140, 80);
+    border-bottom: 4px solid rgb(162, 133, 79);
+}
+
+#expirenceDiv {
+    border-top: 4px solid skyblue;
+    border-bottom: 4px solid skyblue;
+}
+
+#ProjectsDiv {
+    border-bottom: 4px solid hotpink;
+    border-top: 4px solid hotpink;
+}
+
+.projectLinks {
+    background: transparent;
+    border: none;
+    font-size: 1.2rem;
+    padding: 1%;
+    margin: 1%;
+}
+
+ul {
+    font-size: 1.5rem;
+    text-align: start;
+    padding: 1%;
+    color: brown;
+}
+
+li {
+    list-style: circle;
+    text-align: start;
+}
+
+#form_con {
+    padding: 2%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#form_con h2 {
+    font-size: 3rem;
+}
+
+#input_div {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4%;
+}
+
+#input_div span {
+    width: 50%;
+}
+
+#form_con span {
+    width: 100%;
+}
+
+span p {
+    font-size: 1.24rem;
+    line-height: 1.6;
+}
+
+input {
+    width: 95%;
+    font-size: 1.6rem;
+    padding: 0.8%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.493);
+}
+
+textarea {
+    width: 98%;
+    height: 150px;
+    border-radius: 5px;
+    font-size: 1.34rem;
+    padding: 0.6%;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.493);
+}
+
+#form_con button {
+    font-size: 2rem;
+    padding: 0% 1%;
+    margin-top: 2%;
+    align-self: end;
+    margin-right: 30px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.493);
+}
+
+footer {
+    background: #22C1C3;
+    background: linear-gradient(0deg, rgba(34, 193, 195, 0.7) 0%, rgba(34, 192, 195, 0.082) 24%);
+}
+#footer1stDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+#footer1stDiv a {
+    margin: 0.4%;
+    background-color: transparent;
+    border: none;
+    font-weight: 400;
+    padding: 0.5%;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.fa-facebook {
+    color: blue;
+}
+
+#footer1stDiv .Insta {
+    color: rgb(196, 119, 234);
+    background: transparent;
+}
+
+#table_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 2%;
+}
+
+#table_div a {
+    border: none;
+    background-color: transparent;
+    color: black;
+    padding: 0.5%;
+}
+
+#table_div ul {
+    margin: 2%;
+}
+
+#table_div li {
+    list-style: none;
+    font-size: large;
+}
+
+#copyright_div {
+    text-align: center;
+    width: 100%;
+}
+
+/* JavaScript Class */
+
+.bodyJs {
+    background: radial-gradient(circle, rgba(238, 174, 202, 0.69) 0%, rgba(0, 0, 0, 0.26) 52%);
+}
+
+.contactDivJs {
+    display: flex;
+}
+
+.nav_aJs{
+  background-color: rgba(153, 205, 50, 0.381);
+}
+
+.displayClass{
+    justify-content: space-evenly;
+    flex-direction: column;
+}
