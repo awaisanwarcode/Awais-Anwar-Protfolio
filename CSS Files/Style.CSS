@@ -48,12 +48,8 @@ a {
 section {
     padding: 0% 2% 2% 2%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(autofill , minmax(500px , 1fr));
     gap: 1.2rem;
-}
-
-section hr{
-    width: 200%;
 }
 
 #Intro,
